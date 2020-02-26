@@ -117,3 +117,16 @@
         margin-top: 4rem;
     }
 }
+@media only screen and (max-width:480px){
+    .portfolio-filter button{
+        margin: .2rem;
+        padding: 1rem 1.5rem;
+        font-size: 1.5rem;
+    }
+    .portfolio-filter .portfolio-image{
+        margin-left: .7rem;
+    }
+
+
+
+}
