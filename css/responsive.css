@@ -8,13 +8,20 @@
     .mobile-menu span{
         display: block;
         position: absolute;
-        right: 2rem;
-        top: 1.5rem;        
+        right: 4rem;
+        top: 3rem;
+        font-size: 2.5rem;        
+    }
+    .logo{
+        height: 3rem;
+        width: 6rem;
     }
     .sticky .mobile-menu span{
         position: absolute;
         right: 6rem;
-        top:2rem;
+        top:2.5rem;
+        display:block
+        
         
     }
     header{
