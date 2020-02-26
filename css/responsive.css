@@ -1,0 +1,112 @@
+@media only screen and (max-width:1200px){
+    header{
+        height: 75rem;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .mobile-menu span{
+        display: block;
+        position: absolute;
+        right: 2rem;
+        top: 1.5rem;        
+    }
+    .sticky .mobile-menu span{
+        position: absolute;
+        right: 6rem;
+        top:2rem;
+        
+    }
+    header{
+        height: 70rem;
+    }
+    .row{
+        margin: 0 1.5rem;
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .skill-section .span_1_of_4:nth-child(4){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+
+    .team-section .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:768px){
+    header{
+        height: 65rem;
+    }
+    .services-section .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    
+    .portfolio-image{
+        height: 20rem;
+        width: 90%;
+    }
+    .footer-section li a{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    .footer-section ul{
+        margin-left: 5rem;
+        width: 80%;
+    }
+    .footer-section li a{
+        font-size: 1.8rem;
+        font-weight: 6rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
