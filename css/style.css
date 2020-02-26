@@ -87,6 +87,10 @@ section{
     border-radius: .3rem;
     display: inline-block;
     font-size: 1.6rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
 }
 
 .little-description{
@@ -97,12 +101,12 @@ section{
 }
 header{
     background:-webkit-gradient( linear, left top, left bottom, from(rgba(135,80,156,0.8)), to(#87509c)),url('../images/startup-594091_1920.jpg');
-    background:linear-gradient( rgba(135,80,156,0.8), #87509c),url('../images/startup-594091_1920.jpg');
+  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    height: 85vh;
+    height: 95vh;
     position: relative;
 }
 .logo{
@@ -126,7 +130,7 @@ header{
 .main-nav li a:visited{
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform:capitalize;
     background: rgba(100,58,121,0);
     padding: .6rem 1.6rem;
     border-radius: .5rem;
@@ -211,23 +215,31 @@ header{
 }
 
 .hero-text-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            -webkit-transform: translate(-50%,-50%);
             transform: translate(-50%,-50%);
-    text-align: center;
+            text-align: center;
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
 }
 .btn-hero:link,
 .btn-hero:visited{
     background: #eb7d4b;
     border-color: #c86a40;
 }
+.btn-hero:hover{
+    background: #17c2a4;
+    border-bottom:.2rem solid #2993c5;;
+}
 
 .services-section{
     color: #fff;
     text-align: center;
     background: #17c2a4;
+    height: 95vh;
 }
 .services-section h2::after{
     background: #14a58c;
@@ -248,7 +260,6 @@ header{
 }
 .team-section{
     background:-webkit-gradient(linear,left top, left bottom,from(rgba(231,241,248,.9)),to(rgba(231,241,248,.9))),url(../images/cafe-768771_1920.jpg);
-    background:linear-gradient(rgba(231,241,248,.9),rgba(231,241,248,.9)),url(../images/cafe-768771_1920.jpg);
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,8 +321,7 @@ header{
 }
 
 .skill-section{
-    background: -webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,0.9)),to(rgba(255,255,2555,0.9))),url(../images/you\ 1.jpg);
-    background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,2555,0.9)),url(../images/you\ 1.jpg);
+    background: -webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,0.9)),to(rgba(255,255,2555,0.9))),url(../images/you\ 1.jpg);    
     background-repeat: no-repeat;
     background-size: cover; 
     text-align: center;
