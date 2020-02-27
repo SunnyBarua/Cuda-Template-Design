@@ -235,17 +235,13 @@ header{
     border-bottom:.2rem solid #2993c5;;
 }
 
-.services-section{
-    color: #fff;
-    text-align: center;
-    background: #17c2a4;
-    height: 95vh;
-}
 .services-section h2::after{
     background: #14a58c;
 }
 .services-icon{
-    height: 12rem;
+    align-items: center;
+    margin-top: .15rem;
+    height: 10rem;
     margin-top: 4.5rem;
     margin-bottom: 3.5rem;
 }
@@ -253,10 +249,11 @@ header{
     color: #fff;
     text-align: center;
     background: -webkit-gradient(linear,left top, left bottom,from(rgba(23,194,164,.9)),to(rgba(23,194,164,.9))), url(../images/workplace-1245776_1920.jpg);
-    background: linear-gradient(rgba(23,194,164,.9),rgba(23,194,164,.9)), url(../images/workplace-1245776_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+    background-attachment: fixed;
+    
 }
 .team-section{
     background:-webkit-gradient(linear,left top, left bottom,from(rgba(231,241,248,.9)),to(rgba(231,241,248,.9))),url(../images/cafe-768771_1920.jpg);
